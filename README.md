@@ -54,10 +54,24 @@ Filebeat следует сконфигурировать для отправки
 
 Перейдите в меню [создания index-patterns  в kibana](http://localhost:5601/app/management/kibana/indexPatterns/create) и создайте несколько index-patterns из имеющихся.
 
+<img width="1717" height="900" alt="image" src="https://github.com/user-attachments/assets/66c3dd28-04a8-4b2b-b346-b2a3f26548a7" />
+
+
+
+
+
 Перейдите в меню просмотра логов в kibana (Discover) и самостоятельно изучите, как отображаются логи и как производить поиск по логам.
+
+<img width="1720" height="931" alt="image" src="https://github.com/user-attachments/assets/1afd508e-2fc7-4217-9186-7a422ba4013b" />
+
+
 
 В манифесте директории help также приведенно dummy-приложение, которое генерирует рандомные события в stdout-контейнера.
 Эти логи должны порождать индекс logstash-* в elasticsearch. Если этого индекса нет — воспользуйтесь советами и источниками из раздела «Дополнительные ссылки» этого задания.
+
+<img width="1637" height="851" alt="image" src="https://github.com/user-attachments/assets/67c645f5-1170-4ab3-a61f-2c4d8d20aa70" />
+
+
  
 ---
 
